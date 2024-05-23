@@ -1,0 +1,3 @@
+server:
+  port: ${PORT:8863}
+message: ATM configuration up on the server!

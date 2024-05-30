@@ -1,3 +1,7 @@
 server:
   port: ${PORT:8861}
 message: Client configuration up on the server!
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8860
